@@ -1,0 +1,11 @@
+[
+    {"code1": "shA", "code2": "W"},
+    {"code1": "shA", "code2": "S"},
+    {"code1": "shA", "code2": "C"},
+    {"code1": "shB", "code2": "W"},
+    {"code1": "shB", "code2": "S"},
+    {"code1": "shB", "code2": "C"},
+    {"code1": "shC", "code2": "W"},
+    {"code1": "shC", "code2": "S"},
+    {"code1": "shC", "code2": "C"}
+    ]

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+
+<style>
+<!--  .red-text {-->
+<!--    color: red;-->
+<!--  }-->
+
+  h2 {
+    font-family: Lobster, Monospace;
+    font-size: 36px;
+  }
+
+<!--  p {-->
+<!--    font-size: 24px;-->
+<!--    font-family: Monospace;-->
+<!--  }-->
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+<!--  .smaller-image {-->
+<!--    width: 200px;-->
+<!--  }-->
+<!--  .silver-background {-->
+<!--  background-color: silver;-->
+<!--}-->
+  #cat-photo-form {
+  background-color: blue;
+}
+</style>
+
+<div class="container-fluid">
+<!--    <h2 class="red-text text-center">CatPhotoApp</h2>-->
+    <h2 class="text-primary text-center">CatPhotoApp</h2>
+
+<!--<p>Click here for <a href="file:///D:/pythonProject/lessons/test.html">cat photos</a>.</p>-->
+<!--  <a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. "></a>-->
+  <a href="#"><img class="img-responsive thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. "></a>
+
+  <img src="https://bit.ly/fcc-running-cats" class="img-responsive" alt="Three kittens running towards the camera. ">
+
+      <div class="row">
+        <div class="col-xs-1">
+        <button type="submit" class="btn btn-block btn-primary">Like</button>
+        </div>
+      <div class="col-xs-2">
+        <button class="btn btn-block btn-info">Info</button>
+      </div>
+        <div class="col-xs-1">
+          <button class="btn btn-block btn-danger">Delete</button>
+        </div>
+      </div>
+    <!--<div class="silver-background">  &lt;!&ndash;(добавлено позже)&ndash;&gt;-->
+<!--<p>Things cats love:</p>-->
+      <p>Things cats <span class = "text-danger">love:</span></p>
+<ul>
+  	<li>cat nip</li>
+  	<li>laser pointers</li>
+  	<li>lasagna</li>
+</ul>
+<p>Top 3 things cats hate:</p>
+<ol>
+  	<li>Garfield</li>
+  	<li>Sylvester</li>
+  	<li>Water</li>
+</ol>
+<!--</div> (добавлено позже)-->
+<!--<input type="text">-->
+
+<!--<input type="text" placeholder="this is placeholder text">-->
+
+<form action="/url-where-you-want-to-submit-form-data"></form>
+
+<form action="/submit-cat-photo" id="cat-photo-form">
+    	<input type="text" required  placeholder="cat photo URL"></br>
+  	<button type="submit">Submit</button></br>
+  	<label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+  	<label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+  </br>
+<label><input type="checkbox" name="personality" checked> First</label>
+<label><input type="checkbox" name="personality"> Second</label>
+<label><input type="checkbox" name="personality"> Third</label>
+</form>
+</div>
+
+
+</body>
+</html>

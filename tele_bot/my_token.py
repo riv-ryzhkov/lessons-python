@@ -1,0 +1,5 @@
+token_echo = '5268343767:AAG4E5inRRzbvxfgPsFH5tTMpmeEAGy9hx4'
+token_wiki = '5252285283:AAFjP03-tJKLy8jyxCUq269vt4Xx-Hu_dVg'
+token_facts = '5027835678:AAHFkIe6Te-9dVuUNwfkJb-fp7bfRVo5MNc'
+token_keys = '5049187030:AAHsruC5V3RNHuqnImreKQvwdtBPDhIKcZk'
+token_chat = '5033309886:AAGYeJE2TQjBC4wGlNdB3V8hHPAaTyPMRuo'

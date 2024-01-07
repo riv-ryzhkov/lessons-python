@@ -1,0 +1,28 @@
+questions = [{'question': 'Что использовали в Китае для глажки белья вместо утюга?',
+              'answer': 'СКОВОРОДА'},
+             {'question': 'Самое теплое время года?',
+              'answer': 'ЛЕТО'}]
+q = int(input('Введите номер вопроса: '))
+d = {}
+b = {}
+x = []
+s = ''
+i = 0
+
+d = questions[q - 1]
+answer = d['answer']
+
+print('Вопрос:', d['question'])
+print('Ответ:', 'x' * len(answer))
+
+x = ['x'] * len(answer)
+print(''.join(x))
+while True:
+    symbol = input('Введите букву: ').upper()
+    for i in range(len(answer)):
+        if answer[i] == symbol:
+            x[i] = symbol
+    s = ''.join(x)
+    print(s)
+    if s == answer:
+        break

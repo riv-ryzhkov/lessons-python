@@ -1,0 +1,16 @@
+print (678)
+print ("Yes!!!!!")
+r = 5
+t = 23
+print(r+t)
+A = input("Введите число:")
+B = input ("Введите второе число:")
+Znak = input ("Введите знак +/-":)
+if Znak == "+"
+	print(float(A)+float(B))
+elif Znak = "-"
+	print(float(A)-float(B))
+
+else
+	print("Неправильный знак")
+input
